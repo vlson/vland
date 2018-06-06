@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/contact/contact"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微醺阁",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 80
+  },
+  "tabBar":{
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页"
+    },{
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+    },
+    {
+      "pagePath": "pages/contact/contact",
+      "text": "联系我们"
+    }],
+    "color": "#add8e6",
+    "backgroundColor": "#000000",
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
